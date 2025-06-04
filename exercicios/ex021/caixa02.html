@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102,102,102);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+       
+        
+        main{
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            border-radius:  10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+           
+        }
+        footer{
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        } 
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho-->
+         <h1>Meu site</h1>
+         <nav> <!--Usa essa tag para criar um menu-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+    </header>
+    <main> <!-- Conteúdo principal do meu site-->
+            <section id="assuntos"><!--Criei uma sessão com o id assuntos-->
+                <p>Esportes Política Tecnologia</p>
+            </section>
+            
+            <section id="noticias"><!--Criei outra sessão com o id de notícias.-->
+                <article><!--Criei um artigo-->
+                    <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis corporis dicta molestiae rem voluptatem, fugiat magnam placeat enim officiis nesciunt, dignissimos laborum numquam aliquam iste unde mollitia a eaque eveniet!</p>
+                    
+                    <aside><!--ASIDE é um conteúdo periférico ao meu article(artigo)-->
+                        <p>Artigo escrito pode José da Silva.</p>
+                    </aside>
+                </article>
+
+                <article><!--Criei outro artigo-->
+
+                </article>
+            </section>
+    </main>
+    <footer> <!--Rodapé do meu site-->
+        <p>Desenvolvido por CursoemVídeo</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
