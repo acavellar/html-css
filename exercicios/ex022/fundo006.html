@@ -3,23 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
-        body{
+        body {
            height:100vh;
-           background-color: black;
+           text-align: justify;
+           text-indent: 2rem;
+          /* background-color: black;
            background-image: url(imagens/wallpaper002.jpg);
            background-position: center center;
            background-repeat: no-repeat;
            background-size: cover; 
+           background-attachment: fixed; */
+       
+        /*Shorthand - background 
+        color > image > position > repeat > [size] o size não funciona na shorthand! > attachment */
+        
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+        background-size: cover;
         }
-        main{
+        main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+        }
+        main > h1{
+            text-align: center;
         }
     </style>
 </head>
@@ -29,6 +41,11 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eos, cumque, vero natus ratione delectus numquam aut voluptate laudantium quae libero laboriosam architecto, recusandae asperiores iure iusto corrupti doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero vero hic optio sequi dolor corporis natus, tempora quia delectus deserunt incidunt ducimus consectetur voluptas unde rem. Esse, sequi vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident impedit facere deleniti distinctio ad ipsa maiores, vitae magnam expedita assumenda nulla asperiores ut exercitationem cupiditate dolores debitis. Ex, atque. Laudantium?
         </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus corporis voluptates alias culpa delectus esse laborum nisi dolores quibusdam libero. Voluptate est perspiciatis voluptatum omnis harum, suscipit velit deleniti minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae velit praesentium sapiente fugiat temporibus quo facere harum consequatur excepturi debitis modi, maxime autem nihil distinctio, accusantium dolorum? Quasi, animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ullam! Saepe quas aut sit voluptas unde sapiente similique consectetur nobis culpa ea fuga nesciunt quidem recusandae quibusdam minus, temporibus esse!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus corporis voluptates alias culpa delectus esse laborum nisi dolores quibusdam libero. Voluptate est perspiciatis voluptatum omnis harum, suscipit velit deleniti minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae velit praesentium sapiente fugiat temporibus quo facere harum consequatur excepturi debitis modi, maxime autem nihil distinctio, accusantium dolorum? Quasi, animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ullam! Saepe quas aut sit voluptas unde sapiente similique consectetur nobis culpa ea fuga nesciunt quidem recusandae quibusdam minus, temporibus esse!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus corporis voluptates alias culpa delectus esse laborum nisi dolores quibusdam libero. Voluptate est perspiciatis voluptatum omnis harum, suscipit velit deleniti minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae velit praesentium sapiente fugiat temporibus quo facere harum consequatur excepturi debitis modi, maxime autem nihil distinctio, accusantium dolorum? Quasi, animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ullam! Saepe quas aut sit voluptas unde sapiente similique consectetur nobis culpa ea fuga nesciunt quidem recusandae quibusdam minus, temporibus esse!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus corporis voluptates alias culpa delectus esse laborum nisi dolores quibusdam libero. Voluptate est perspiciatis voluptatum omnis harum, suscipit velit deleniti minima? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae velit praesentium sapiente fugiat temporibus quo facere harum consequatur excepturi debitis modi, maxime autem nihil distinctio, accusantium dolorum? Quasi, animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ullam! Saepe quas aut sit voluptas unde sapiente similique consectetur nobis culpa ea fuga nesciunt quidem recusandae quibusdam minus, temporibus esse!</p>
+
     </main>
 </body>
 </html>
