@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        #tela{
+          width: 95vw;
+          border: 2px solid black;
+          height: 400px;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur iure est molestias maxime accusamus soluta hic neque qui dolore expedita, voluptatum itaque ipsa culpa fugiat animi eaque. Magni, dicta!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <!--Crie um target para abrir a minha página dentro do meu frame.-->
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima beatae laborum dolorum ullam animi at similique exercitationem corporis numquam perspiciatis, esse officia odit delectus rerum dolor architecto mollitia dicta necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nobis minus soluta eum, maiores aliquid? Voluptate libero quos eligendi aperiam nam inventore aliquid labore quaerat autem blanditiis ullam, qui ipsa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptate sit similique voluptatem aut quibusdam, officiis id corrupti quasi officia beatae earum saepe temporibus, aliquam quaerat quidem magnam, veniam quos.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut voluptates laborum odit, vitae cupiditate dicta maxime incidunt consequatur esse quas illo, qui a enim voluptatem cumque veniam consequuntur perferendis eos.</p><imgsrc='imagens/cursoemvideo.png'>"> 
+        <!--Criei um name pra usar no target de abertura das minhas páginas dentro de um frame.-->
+        Infelizmente seu navegador não é compativel com isso.
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto praesentium perferendis sunt autem aspernatur velit necessitatibus omnis distinctio nihil. Quibusdam autem labore non laudantium eum architecto temporibus, consequatur quidem! At. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias corporis ad aperiam aspernatur nihil ipsa pariatur consectetur quo? Culpa iusto magnam placeat delectus harum, rerum ab similique perferendis est perspiciatis.</p>
+</body>
+</html>
