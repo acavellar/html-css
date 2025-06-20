@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!-- A ação cadastro.php é para onde os meus dados serão enviados. Auto completar dentro da caixa desligado-->
+     <!--Quando os dados não forem sensiveis pode usar o GET que também é o padrão, compartilhavel e até 3m bytes-->
+     <!-- https[ESTUDAR PARA O FUTURO] para proteção de senha, dados sensiveis, senhas, imagens etc use o médoto POST -->
+            <form action="cadastro.php" method="get" autocomplete="off"> 
+            <!--O label é para criar uma relação entre a palavra e o objeto, sempre bote o id dentro do for -->
+        <p><label for="inome">Nome:</label>  
+            <!--Name =" é o nome do objeto" | id= "é o identificador do objeto"-->
+            <input type="text" name="nome" id="inome"></p>
+            <!--Botei uma caixa de texto, para o usuário digitar o nome-->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p> 
+            <!--Botei uma caixa de texto, para o usuário digitar o sobrenome-->
+        <p><input type="submit" value="Enviar"></p>
+        <!--Botei uma caixa de submit para enviar os dados para algum lugar-->
+
+    </form>
+</body>
+</html>
